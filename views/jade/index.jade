@@ -4,6 +4,6 @@ block content
 	p This is an Express app!
 	- if(categories)
 	h2 Success Loading stuff
-		div
+		ul
 			each c in categories
-				p= c.name
+				li= c.name

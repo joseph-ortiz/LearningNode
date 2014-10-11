@@ -6,6 +6,7 @@ var controllers = require("./controllers");
 
 controllers.init(app);
 app.set("view engine", "jade");
+app.use(express.static(__dirname + "/public"));
 app.get("/api/users", function(req,res){
 	res.set("Content-Type", "application/json");
 	res.send({name:"Joe", isValid: true, group: "Admin"});
