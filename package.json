@@ -1,0 +1,19 @@
+{
+  "name": "NodeJS",
+  "version": "0.0.0",
+  "description": "following the pluralsight node for .net devs course",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "^1.7.0",
+    "express": "^4.9.6",
+    "jade": "^1.7.0",
+    "ejs": "^1.0.0",
+    "mongodb": "^1.4.19"
+  }
+}

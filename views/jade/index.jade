@@ -1,0 +1,9 @@
+extends layout
+block content
+	h1= title
+	p This is an Express app!
+	- if(categories)
+	h2 Success Loading stuff
+		div
+			each c in categories
+				p= c.name
