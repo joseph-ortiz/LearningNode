@@ -11,7 +11,7 @@
         {
           res.render("jade/index",
           {
-            title: "Express + Jade",
+            title: "Express + Jade + Grunt + Bower + NPM + Bootstrap Material Design + Underscore",
             error: err,
             categories: results
           });
